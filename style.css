@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 300vh;
+  background: #f0f0f0;
+}
+
+.nada {
+  height: 100vh;
+}
+
+#configure {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+ img {
+  width: 50px;
+  height: 50px;
+}
+
+.cards .titulo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cards .card1 {
+  text-align: center;
+  margin-right: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4%;
+}
+
+.cards .card1:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+  background-color: blueviolet;
+  color: #f0f0f0;
+  border: 1px solid #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.cards .card2 {
+  text-align: center;
+  margin-right: 50px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4%;
+}
+
+.cards .card2:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+  background-color: blueviolet;
+  color: #f0f0f0;
+  border: 1px solid #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.cards .card3 {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4%;
+}
+
+.cards .card3:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+  background-color: blueviolet;
+  color: #f0f0f0;
+  border: 1px solid #fff;
+  transition: 0.5s ease-in-out;
+}
